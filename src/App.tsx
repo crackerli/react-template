@@ -6,6 +6,8 @@ import viteLogo from './assets/vite.svg'
 
 import './App.css'
 
+let cardSize = 20;
+
 function App() {
   return (
     <main>
@@ -20,7 +22,7 @@ function App() {
       <ul role="list" className='card-list'>
         <Card
           icon={fleekMark}
-          width={31}
+          width={cardSize}
           href="https://docs.fleek.xyz/"
           title="Fleek Documentation"
           body="Learn about Fleek & the available services by cheking our official docs."
@@ -28,7 +30,7 @@ function App() {
 
         <Card
           icon={reactLogo}
-          width={31}
+          width={cardSize}
           href="https://react.dev/"
           title="React Documentation"
           body="Learn about React in their official docs."
@@ -36,7 +38,7 @@ function App() {
 
         <Card
           icon={fleekMark}
-          width={31}
+          width={cardSize}
           href="https://blog.fleek.xyz/"
           title="Fleek Blog"
           body="Checkout our Blog for more information about Fleek."
@@ -44,7 +46,7 @@ function App() {
 
         <Card
           icon={viteLogo}
-          width={31}
+          width={cardSize}
           href="https://vitejs.dev/guide/"
           title="Vite Documentation"
           body="Learn about Vite & how it can bring you a modern development experience."
